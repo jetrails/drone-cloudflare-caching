@@ -7,8 +7,6 @@
 
 ## About
 
-> **WARNING**: Logic works if authenticated with email and global API token, not currently working with scoped API tokens. This is an issue with Cloudflare and should hopefully be resolved soon.
-
 Our Drone plugin enables the ability for your pipeline to interface with Cloudflare's API to purge cache. This plugin is written in Go and it uses the [cloudflare-go](https://github.com/cloudflare/cloudflare-go) package to communicate with Cloudflare's API. For information on Cloudflare's API please refer to their [documentation](https://api.cloudflare.com/#zone-purge-all-files) page.
 
 ## Cloudflare Token
